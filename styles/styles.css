@@ -21,9 +21,6 @@ nav {
     box-shadow: 0 0 30px gray;
   }
 
-  padding {
-    padding: 10px;
-  }
 
   aside {
     width: 20rem;
@@ -41,10 +38,13 @@ nav {
     }
 
     main img {
-            max-width: 150px;
-            height: auto;
+        max-width: 150px;
+        height: auto;
     }
-    
+    main {
+        padding: 20px;
+        background-color: lightgray;
+    }
 
     p {
         padding: 0;
