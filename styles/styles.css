@@ -41,7 +41,7 @@ nav {
     }
 
     main img {
-        width: 150px;
+        max-width: 150px;
         height: auto;
     }
 
