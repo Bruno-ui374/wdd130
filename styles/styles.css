@@ -1,8 +1,51 @@
-nav {
-    background-color: darkblue;
-    padding: 10px;
+
+  :root {
+    --dark-blue: darkblue;
+    --white: white;
+    --gray: gray;
+    --light-gray: lightgray;
+    --black: black;
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-large: 2px;
+    --border-width: 1px;
+    --box-shadow: 0 0 30px var(--gray);
   }
 
+  nav {
+    background-color: var(--dark-blue);
+    padding: var(--padding-small);
+  }
+
+  nav a {
+    color: var(--white);
+    padding: var(--padding-medium);
+  }
+
+  h1 {
+    color: var(--dark-blue);
+  }
+
+  img {
+    border: var(--border-width) solid var(--black);
+    padding: var(--padding-large);
+    box-shadow: var(--box-shadow);
+  }
+
+  aside {
+    border: var(--border-width) solid rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    color: #333;
+  }
+
+  main {
+    padding: var(--padding-medium);
+    background-color: var(--light-gray);
+  }
+
+  footer {
+    border-top: var(--border-width) solid var(--black);
+  }
   nav a {
     color: white;
     display: block;
