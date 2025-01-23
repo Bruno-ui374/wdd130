@@ -1,0 +1,65 @@
+:root {
+    /* CSS HEX */
+--prussian-blue: #003049ff;
+--fire-brick: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--barn-red: #780000ff;
+}
+
+h1, h2, h3 {
+    font-family: Roboto;
+}
+
+p {
+    font-family: open-sans;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    gap: 10px;
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+    
+}
+
+.hero > img:first-of-type {
+    display: block;
+    width: 100%; 
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    margin: 20px;
+    
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 20%;
+    left: 30%;
+    color: var(--papaya-whip);
+}
