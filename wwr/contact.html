@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Rapids White Water Rafting</title>
+  <title>Contact White Water Rafting</title>
   <link rel="stylesheet" href="styles/rafting.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
 
   <main class="main-background">
     
-    <h2 class="legend tracking-in-expand">This is Part of Our professional team</h2>
+    <h1 class="legend tracking-in-expand">This is Part of Our professional Employees</h1>
 
     <div class="cards">
     
@@ -51,7 +51,7 @@
             </svg>
           </a>
         </div>
-        <button>Resume</button>
+        <button type="submit">Resume</button>
         <div class="bar">
           <div class="emptybar"></div>
           <div class="filledbar"></div>
@@ -80,7 +80,7 @@
             </svg>
           </a>
         </div>
-        <button>Resume</button>
+        <button type="submit">Resume</button>
         <div class="bar">
           <div class="emptybar"></div>
           <div class="filledbar"></div>
@@ -107,7 +107,7 @@
             </svg>
           </a>
         </div>
-        <button>Resume</button>
+        <button type="submit">Resume</button>
         <div class="bar">
           <div class="emptybar"></div>
           <div class="filledbar"></div>
@@ -130,39 +130,43 @@
   
       </section>
       <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.9886061084767!2d-107.35613132505998!3d39.55986447159016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741096248b0b099%3A0x6835dde86c877c52!2sWhitewater%20Rafting%2C%20LLC!5e0!3m2!1sen!2sug!4v1739035116210!5m2!1sen!2sug" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.9886061084767!2d-107.35613132505998!3d39.55986447159016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741096248b0b099%3A0x6835dde86c877c52!2sWhitewater%20Rafting%2C%20LLC!5e0!3m2!1sen!2sug!4v1739035116210!5m2!1sen!2sug" width="350" height="300"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </div>
     <div class="form-container">
         <div class="form">
             <div class="legend tracking-in-expand heading">Customer request</div>
             <form class="form" action="">
-                <input placeholder="fullname" type="text" name="fullname" id="name" class="input" required="" />
-                <input placeholder="email" type="email" name="email" id="email" class="input" required="" />
+                <label for="fullname" class="label">
+                    <input placeholder="fullname" type="text" name="fullname" id="fullname" class="input" required="" />
+                </label>
+                <label for="email" class="label">
+                    <input placeholder="email" type="email" name="email" id="email" class="input" required="" />
+                </label>
     
                 <p class="legend tracking-in-expand heading">Purpose of Inquiry</p>
                 <div class="radio-inputs">
                     <label>
-                        <input name="inquiry" type="radio" class="radio-input" />
+                        <input name="inquiry" type="radio" class="radio-input" id="general-inquiry" />
                         <span class="radio-tile">
                             <span class="radio-label">General inquiry</span>
                         </span>
                     </label>
                     <label>
-                        <input name="inquiry" type="radio" class="radio-input" checked="" />
+                        <input name="inquiry" type="radio" class="radio-input" id="reservation-question" checked="" />
                         <span class="radio-tile">
                             <span class="radio-label">Reservation Question</span>
                         </span>
                     </label>
                     <label>
-                        <input name="inquiry" type="radio" class="radio-input" />
+                        <input name="inquiry" type="radio" class="radio-input" id="website-suggestion" />
                         <span class="radio-tile">
                                 <span class="radio-label">Website suggestion</span>
                         </span>
                     </label>
                 </div>
                 <div class="form-group">
-                    <textarea name="textarea" id="textarea" rows="4" placeholder="Type your message here" required=""></textarea>
+                    <textarea name="textarea" id="message" rows="4" placeholder="Type your message here" required=""></textarea>
                 </div>
                 <div class="checkbox-container">
                     <div class="checkbox-wrapper">
@@ -174,7 +178,7 @@
                     <span class="checkbox-text heartbeat">Please subscribe me to the monthly newsletter</span>
                 </div>
                 <div class="button-container">
-                    <button>
+                    <button id="submit-button">
                         <div class="svg-wrapper-1">
                             <div class="svg-wrapper">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
