@@ -197,7 +197,10 @@ footer nav.social-links img {
     width: 24px;
     height: 24px;
 }
-
+footer .wireframe{
+    
+    color: var(--papaya-whip);
+}
 footer nav.social-links img[alt="X"] {
     filter: brightness(0) invert(1);
 }
