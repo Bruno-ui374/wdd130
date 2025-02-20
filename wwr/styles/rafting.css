@@ -1042,7 +1042,7 @@ html {
 
 .content-box .see-more a {
 text-decoration: none;
-color: rgb(7, 185, 255);
+color: var(--prussian-blue);
 }
 .content-box .see-more a:hover{
 color: #201F24;
@@ -1067,7 +1067,7 @@ color: #201F24;
   align-items: center;
   font-size: 20px;
   font-weight: 900;
-  color: rgb(4, 193, 250);
+  color: var(--prussian-blue);
 }
 
 .date-box span {
@@ -1224,13 +1224,8 @@ box-shadow:  20px 20px 60px #bebebe,
 	object-fit: cover;
 	border-radius: 50%;
 }
-.testimonials .item p {
-	color: #ddd;
-}
-.testimonials .item h2 {
-	font-size: 14px;
-  padding-top: 10px;
-}
+
+
 .dots {
 	display: flex;
 	justify-content: center;
@@ -1245,6 +1240,17 @@ box-shadow:  20px 20px 60px #bebebe,
 	margin: 7px;
 	transition-duration: 0.2s;
 }
+
+.testimonial-text {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.testimonial-name,
+.testimonial-text {
+  display: block;
+}
+
 
 #t-1:checked ~ .dots label[for="t-1"],
 #t-2:checked ~ .dots label[for="t-2"],
@@ -1361,7 +1367,7 @@ box-shadow:  20px 20px 60px #bebebe,
 
 .form-section button {
   text-align: center;
-  width: 110px;
+  width: 140px;
   padding: 10px;
   background-color: #555;
   color: #fff;
